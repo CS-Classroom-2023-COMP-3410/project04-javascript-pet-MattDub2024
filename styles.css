@@ -1,0 +1,15 @@
+.image-health-good{
+  background-color: #6ff137;
+}
+
+.image-health-med{
+  border: 10px #dfe861;
+}
+
+.image-health-bad{
+  border: 10px #fe1755;
+}
+
+
+  
+
