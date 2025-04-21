@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Take care of Nelly using the buttons below.</h1>
+    </header>
+    
+        <section>
+            <h2>You may feed, play with, or give the dog some sleep</h2>
+        </section>
+
+    <main>
+        <h3 id = "status">Status: </h3>
+        <ul>
+            <li>Hunger: <span id="hungry" >0</span></li>
+            <li >Happiness: <span id="happy">0</span></li>
+            <li>Energy: <span  id="sleepy">0</span></li>
+        </ul>
+        <h3>Health:</h3>
+        
+        <ul id="healthBar" style="background: red">
+            <li >Health: <span id="health">0</span></li>
+        </ul>
+  
+
+        <div id="dog-image">
+        <img src="https://www.dogster.com/wp-content/uploads/2022/09/black-labrador-retriever-in-the-grass_Baevskiy-Dmitry-Shutterstock-scaled.jpg" width = 500px alt="Dog">
+        </div>
+        <div class="square"></div>
+        <div class="button-container">
+            <button id="hungryBTN">Feed Nelly</button>
+            <button id="happyBTN">Play with Nelly</button>
+            <button id="sleepBTN">Put Nelly to Sleep</button>
+        </div>
+    
+    </main>
+    <footer>
+        <p>&copy; 2025 Project 4</p>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
